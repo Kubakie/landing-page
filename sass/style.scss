@@ -88,9 +88,6 @@ section {
     font-family: $font-header;
 }
 
-
-}
-
 .page-subtitle {
     color: $color-light;
     font-size: 18px;
@@ -152,11 +149,4 @@ section {
 
 .skill-image img:hover {
     transform: scale(2);
-}
-
-/* Footer*/
-.page-footer {
-    background: #242424;
-    color: $color-light;
-    height: 5;
 }

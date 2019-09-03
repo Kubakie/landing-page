@@ -80,17 +80,6 @@ section {
   font-family: "Open Sans", sans-serif;
 }
 
-.page-title::after {
-  position: absolute;
-  content: ' ';
-  bottom: -24px;
-  left: 50%;
-  width: 100px;
-  height: 10px;
-  transform: translateX(-50%);
-  background: #2f3640;
-}
-
 .page-subtitle {
   color: #fff;
   font-size: 18px;
@@ -153,12 +142,5 @@ section {
 
 .skill-image img:hover {
   transform: scale(2);
-}
-
-/* Footer*/
-.page-footer {
-  background: #242424;
-  color: #fff;
-  height: 5;
 }
 /*# sourceMappingURL=style.css.map */
