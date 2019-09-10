@@ -48,6 +48,14 @@ section {
 
 }
 
+/*Boxes*/
+[class^="box-"] {
+    position: relative;
+    flex: 0 0 33.333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
 /* Splash*/

@@ -42,6 +42,19 @@ section {
       justify-content: space-between;
 }
 
+/*Boxes*/
+[class^="box-"] {
+  position: relative;
+  -ms-flex: 0 0 33.333%;
+      flex: 0 0 33.333%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
 /* Splash*/
 .splash {
   height: 100vh;
