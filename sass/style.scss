@@ -23,6 +23,19 @@ body {
     font-family: $font-text;
 }
 
+i {
+    font-size: 30px;
+
+
+}
+
+
+
+p {
+    word-wrap: break-word;
+
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -32,13 +45,15 @@ body {
 /* Sections*/
 section {
     padding: 108px 0;
+
 }
 
 .section-title {
     position: relative;
     font-size: 36px;
     margin: 0 0 60px 0;
-    font-family: $font-header
+    font-family: $font-header;
+    text-transform: uppercase;
 }
 
 .wrapper {
@@ -55,6 +70,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
 }
 
 
@@ -123,6 +139,7 @@ section {
 /*Skills*/
 [class^="skill-"] {
     position: relative;
+
 }
 
 .skill-image {
