@@ -150,6 +150,7 @@ section {
     display: flex;
     flex: 0 0 33.333%;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     .pic img {
         max-width: 300px;

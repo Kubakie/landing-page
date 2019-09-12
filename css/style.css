@@ -142,6 +142,8 @@ section {
       flex: 0 0 33.333%;
   -ms-flex-pack: justify;
       justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .gallery .pic img {
