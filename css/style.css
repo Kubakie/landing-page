@@ -45,8 +45,10 @@ section {
 .wrapper {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex: 0 0 33.333%;
+      flex: 0 0 33.333%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   -ms-flex-pack: justify;
       justify-content: space-between;
 }
@@ -130,6 +132,20 @@ section {
 /*Skills*/
 [class^="skill-"] {
   position: relative;
+}
+
+/*Gallery*/
+.gallery {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 0 0 33.333%;
+      flex: 0 0 33.333%;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.gallery .pic img {
+  max-width: 300px;
 }
 
 .skill-image {
