@@ -183,4 +183,23 @@ section {
 .skill-image img:hover {
   transform: scale(2);
 }
+
+/*Footer*/
+.page-footer {
+  text-align: center;
+}
+
+.copy {
+  display: inline-block;
+}
+
+.foot-list {
+  font-size: 30px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.foot-list li {
+  display: inline;
+}
 /*# sourceMappingURL=style.css.map */
