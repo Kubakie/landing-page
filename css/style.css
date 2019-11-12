@@ -129,9 +129,15 @@ section {
   background: #f0f0f0;
 }
 
-/*Skills*/
+/*Services*/
 [class^="skill-"] {
   position: relative;
+}
+
+.textbox {
+  text-align: justify;
+  word-wrap: break-word;
+  padding: 0 5px 0;
 }
 
 /*Gallery*/
