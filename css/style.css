@@ -62,8 +62,6 @@ section {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
   text-align: center;
 }
 
@@ -137,7 +135,7 @@ section {
 .textbox {
   text-align: justify;
   word-wrap: break-word;
-  padding: 0 5px 0;
+  padding: 0 20px;
 }
 
 /*Gallery*/
@@ -154,6 +152,7 @@ section {
 
 .gallery .pic img {
   max-width: 300px;
+  max-height: 200px;
 }
 
 .portfolio {
